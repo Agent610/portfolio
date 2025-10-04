@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ===== Header / Navigation ===== */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Main Content ===== */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+/* ===== Project Cards ===== */
+.project {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.project a {
+  color: #0077cc;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* ===== Contact Links ===== */
+main a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  header,
+  main,
+  footer {
+    padding: 1rem;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
